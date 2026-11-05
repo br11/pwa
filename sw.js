@@ -1,12 +1,12 @@
 const CACHE_NAME = 'pwa-exemplo-v1';
 const ASSETS_TO_CACHE = [
-  './',
-  './index.html',
-  './style.css',
-  './app.js',
-  './manifest.json',
-  './icon/icon-192.png',
-  './icon/icon-512.png'
+  '/pwa/',
+  '/pwa/index.html',
+  '/pwa/style.css',
+  '/pwa/app.js',
+  '/pwa/manifest.json',
+  '/pwa/icon/icon-192.png',
+  '/pwa/icon/icon-512.png'
 ];
 
 // Instalação do Service Worker e salvamento no cache

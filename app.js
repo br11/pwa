@@ -1,6 +1,6 @@
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./sw.js')
+    navigator.serviceWorker.register('/pwa/sw.js')
       .then((reg) => {
         document.getElementById('status').innerText = 'Service Worker registrado com sucesso!';
       })
